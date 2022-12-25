@@ -9,5 +9,5 @@ Cure is an App that facilate the life for the human it can give many Services :
 
 # Services :  
 
-<img src="https://user-images.githubusercontent.com/110169371/209484738-9949a01b-1bfd-46dc-bd98-9c1df049d9f1.jpg" width="300" height="300"/>
+<img src="https://user-images.githubusercontent.com/110169371/209484738-9949a01b-1bfd-46dc-bd98-9c1df049d9f1.jpg" width="200" height="300"/>
 
