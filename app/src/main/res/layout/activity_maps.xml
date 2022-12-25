@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/white_border"
+        android:id="@+id/relLayout1">
+
+        <ImageView
+            android:id="@+id/B_Search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_magnify"
+            android:tint="#00BCD4"
+            android:onClick="ongeolocate"/>
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/B_Search"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:id="@+id/TF_location"
+            android:background="@null"
+            android:hint="Enter Address, City or Zip Code"
+            android:imeOptions="actionSearch"/>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/zoomin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="630dp"
+        android:onClick="onZoom"
+        android:src="@drawable/plus" />
+
+    <ImageView
+        android:id="@+id/zoomout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/zoomin"
+        android:layout_alignParentRight="true"
+        android:onClick="onZoom"
+        android:src="@drawable/mines" />
+
+    <ImageView
+        android:id="@+id/ic_gps"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/relLayout1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:onClick="onLocatebutton"
+        android:src="@drawable/ic_mylocation" />
+
+    <ImageView
+        android:id="@+id/place_info"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/place_picker"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_info" />
+
+    <ImageView
+        android:id="@+id/place_picker"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/relLayout1"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/nearbyplace" />
+
+    <ImageView
+        android:id="@+id/B_Hospital"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/to"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/hospital_near"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/B_School"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/B_Hospital"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pharmacy_near"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/B_Restaurant"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/B_School"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/rest"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/to"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/place_info"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/rout" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "295124454696",
+    "firebase_url": "https://cure-272420.firebaseio.com",
+    "project_id": "cure-272420",
+    "storage_bucket": "cure-272420.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295124454696:android:895bfe40cbc3b4c6a1141d",
+        "android_client_info": {
+          "package_name": "com.example.cure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295124454696-ctep8tb6jfi959bogqkn3lrg6gpssb84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7DI7ZSFRPqUFsWAfsETDAfukogncXXuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295124454696-ctep8tb6jfi959bogqkn3lrg6gpssb84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">CURE</string>
+
+
+    ************************************
+    <!-- Slide 1 Title and Descritption-->
+    <string name="slide_1_title">PRENDS SOIN DE TA SANTÉ \n \n Avec \n  \n CURE </string>
+    <string name="slide_1_desc"></string>
+    <!-- Slide 2 Title and Descritption-->
+    <string name="slide_2_title">Assistant</string>
+    <string name="slide_2_desc">Heure du médicament \n Poids\nFréquence Cardiaque\n Stress\n Information Médicale </string>
+    <!-- Slide 3 Title and Descritption-->
+    <string name="slide_3_title">Localiser les lieux</string>
+    <string name="slide_3_desc">À proximité \n Hôpitaux \n Sanatoriums\n Pharmacies\n Médecins</string>
+    <!-- After Login Descritption-->
+    <string name="aflog_title">"Bonjour,que souhaitez-vous faire aujourd'hui ?"</string>
+    <string name="fingerpr">"Authentifier en utilisant l'empreinte digitale\n                 au lieu du mot de passe"</string>
+
+
+    <string-array name="array_country"></string-array>
+
+
+    **********************************************************************************
+    <string name="title_medicine_name"> Nom du médicament </string>
+    <string name="hint_enter_med_name"> Entrez la médecine </string>
+    <string name="medicine_days"> Journées de la médecine </string>
+    <string name="title_treatment_deadline"> Délai de traitement </string>
+    <string name="title_continuous_use"> Utilisation continue </string>
+    <string name="title_reminder"> Rappel </string>
+    <string name="new_medicine"> NOUVEAU MÉDICAMENT </string>
+    <string name="every_day"> Chaque jour </string>
+    <string name="no_medicine_added"> Aucun médicament ajouté </string>
+    <string name="loading_tasks_error"> Erreur lors du chargement de medicineAlarms </string>
+    <string name="successfully_saved_me_message"> Médicament ajouté avec succès </string>
+    <string name="successfully_deleted_message"> Médicament supprimé avec succès </string>
+    <string name="reminder_message"> Il est temps de prendre votre médicament </string>
+    <string name="ignored"> IGNORED </string>
+    <string name="taken"> PRIS </string>
+    <string name="all"> ALL </string>
+    <string name="menu_filter"> Filtre </string>
+    <string name="all_label"> Tous les médicaments </string>
+    <string name="ignore_label"> Médicaments ignorés </string>
+    <string name="taken_label"> Prise de médicament </string>
+    <string name="no_history"> Aucun historique trouvé </string>
+    <string name="no_taken_med_history"> Vous n\'avez pris aucun médicament </string>
+    <string name="no_ignored_history"> Bien fait </string>
+    <string name="menu_stats"> Rapport mensuel </string>
+
+
+    ************************************************************************************************************************
+    <string-array name="array_doctors">
+        <item>Docteur 1</item>
+        <item>Docteur 2</item>
+        <item>Docteur 3</item>
+        <item>Docteur 4</item>
+        <item>Docteur 5</item>
+        <item>Docteur 5</item>
+        <item>Docteur 6</item>
+        <item>Docteur 7</item>
+        <item>Docteur 8</item>
+        <item>Docteur 9</item>
+        <item>Docteur 10</item>
+    </string-array>
+
+
+    <string-array name="array_doctors_desc">
+        <item>Docteur 1 Description</item>
+        <item>Docteur 2 Description</item>
+        <item>Docteur 3 Description</item>
+        <item>Docteur 4 Description</item>
+        <item>Docteur 5 Description</item>
+        <item>Docteur 5 Description</item>
+        <item>Docteur 6 Description</item>
+        <item>Docteur 7 Description</item>
+        <item>Docteur 8 Description</item>
+        <item>Docteur 9 Description</item>
+        <item>Docteur 10 Description</item>
+    </string-array>
+
+    *************************************************************************************************************************************
+
+    <string name="very_severely_underweight">very severly underweight</string>
+    <string name="severely_underweight">Severly underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese_class_i">Moderately obese</string>
+    <string name="obese_class_ii">Severely obese</string>
+    <string name="obese_class_iii">Very severely obese</string>
+
+
+    <string name="navigation_drawer_open">Open Navigation</string>
+    <string name="navigation_drawer_close">Close Navigation</string>
+    <string name="navi">close</string>
+
+
+    <string-array name="brew_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>
+

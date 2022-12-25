@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Acceuil" />
+
+        <item
+            android:id="@+id/nav_perfo"
+
+            android:icon="@drawable/bascule"
+            android:title="Performance" />
+
+        <item
+            android:id="@+id/nav_navig"
+
+            android:icon="@drawable/navigation"
+            android:title="Navigation" />
+
+        <item
+            android:id="@+id/nav_consult"
+
+            android:icon="@drawable/consu"
+            android:title="Consultation" />
+        <item
+            android:id="@+id/nav_rappel"
+
+            android:icon="@drawable/rappel_icon"
+            android:title="Rappel" />
+
+    </group>
+    <group android:checkableBehavior="all">
+    <item
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="Profile">
+
+        <menu>
+
+                <item
+                    android:id="@+id/nav_profile"
+
+                    android:icon="@drawable/ic_person_black_24dp"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+
+                    android:title="Deconnexion" />
+
+        </menu>
+    </item>
+    </group>
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_contac"
+
+                android:title="Contactez-Nous" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+</menu>
