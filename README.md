@@ -3,9 +3,13 @@ Cure : An Android App Created By JAVA and Kotlin Using Android Studio
 
 Cure is an Android Application Developed Using Android Studio 
 
-#Main Idea : 
+# Main Idea : 
 
 Cure is an App that facilate the life for the human it can give many Services : 
+
+## Logo : 
+
+<img src ="https://user-images.githubusercontent.com/110169371/209485400-e6a96b83-36be-44a0-907a-3ba176170a74.png" width="200"/>
 
 ### Services 
 
